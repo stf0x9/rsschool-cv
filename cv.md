@@ -11,3 +11,17 @@
     * Basic JavaScript
     * VS Code, Sublime Text3 IDE
     * Brief knowledge of Photoshop and Figma
+
+### Skills in progress: 
+    * Advanced JavaScript
+    * React.js
+    * Node.js
+    * Git, GitHub
+
+### Certifications:
+
+* Responsive Web Design (HTML, CSS, Flexbox, CSS Grid)
+
+### Languages:
+    * English - Fluent (C1)
+    * Russian - Native
