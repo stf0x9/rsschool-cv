@@ -1,12 +1,12 @@
-@media (max-width: 768px) {
-	.section {
-		width: 100%;
+@media (max-width: 730px) {
+	.container code {
+		overflow-x: auto;
 	}
 }
 
 * {
 	box-sizing: border-box;
-	/* outline: 1px solid #f00 !important; */
+	outline: 1px solid #f00 !important;
 }
 
 body {
@@ -80,10 +80,8 @@ html {
 	transition: color 0.5s;
 }
 
-/* ------ */
-
-
 /* H3 */
+
 .section-title {
 	font-size: 1rem;
 	font-weight: bold;
@@ -94,9 +92,21 @@ html {
 /* PROFILE */
 
 .profile {
-	width: 100%;
-	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
 	background-color: rgb(198, 254, 22);
+}
+
+.profile img {
+	padding-top: 5%;
+}
+
+.profile h1 {
+	width: 100%;
 }
 
 .section h2 {
@@ -122,6 +132,20 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	width: 50%;
+}
+
+@media (max-width: 550px) {
+	.main-container {
+		flex-wrap: wrap;
+	}
+	
+	.container-left {
+		width: 100%;
+	}
+	
+	.container-right {
+		width: 100%;
+	}
 }
 
 /* CONTACTS */
@@ -158,6 +182,10 @@ html {
 /* CONTACTS ICONS AND COLORS */
 
 /* linear-gradient(rgb(198, 254, 22), rgb(188, 246, 81)) */
+
+.icon-block img {
+	max-width: 100%;
+}
 
 .phone-icon {
 	display: flex;
@@ -250,25 +278,12 @@ html {
 	background-color: rgb(252, 2, 115);
 }
 
-/* ABOUT */
 
-
-/* CODE */
-
-
-
-/* EDUCATION */
-
-
-
-/* LANGUAGE */
-
-
-code {
+.container code {
 	display: block;
-	padding: 5px 10px;
-	box-shadow: -3px 3px 5px rgb(189, 215, 140);
+	padding-left: 1%;
 	background-color: white;
+	box-shadow: -3px 3px 5px rgb(189, 215, 140);
 	font-family: 'Source Code Pro', monospace;
 	line-height: 1.5;
 	font-weight: bold;
