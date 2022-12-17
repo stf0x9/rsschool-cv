@@ -305,13 +305,23 @@ code .code-yellow {
 	color: rgb(161, 177, 18);
 }
 
-/* .footer-container {
+.footer-container {
+	height: 10%;
 	background-color: rgb(193, 193, 193);
-} */
+}
 
 .footer-list {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	margin: 0;
+	padding: 0;
+	border-top: 5px solid rgb(252, 2, 115);
 	list-style: none;
+	font-size: 0.8rem;
+}
+
+.footer a {
+	color: rgb(252, 2, 115);
+	text-decoration: none;
 }
