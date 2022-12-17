@@ -6,7 +6,7 @@
 
 * {
 	box-sizing: border-box;
-	outline: 1px solid #f00 !important;
+	/* outline: 1px solid #f00 !important; */
 }
 
 body {
@@ -44,9 +44,8 @@ html {
 
 /* NAVIGATION */
 
-.nav {
-	background-color: rgb(59, 59, 79);
-	background: linear-gradient(to right, rgb(198, 254, 22), rgb(158, 226, 136), rgb(119, 204, 200), rgb(86, 140, 206));
+.header-container {
+	background: linear-gradient(to right, rgb(198, 254, 22), rgb(198, 254, 22), rgb(198, 254, 22), rgb(158, 226, 136), rgb(119, 204, 200), rgb(86, 140, 206));
 }
 
 .nav-list {
@@ -58,7 +57,7 @@ html {
 
 .nav-link {
 	padding: 0 20px;
-	line-height: 50px;
+	line-height: 15px;
 }
 
 .nav-list a {
@@ -80,13 +79,15 @@ html {
 	transition: color 0.5s;
 }
 
-/* H3 */
-
 .section-title {
 	font-size: 1rem;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+a:visited {
+	color: #0000ee;;
 }
 
 /* PROFILE */
@@ -102,11 +103,13 @@ html {
 }
 
 .profile img {
-	padding-top: 5%;
+	width: 45%;
 }
 
 .profile h1 {
-	width: 100%;
+	align-self: center;
+	width: 50%;
+	margin-left: 5%;
 }
 
 .section h2 {
@@ -289,6 +292,22 @@ html {
 	font-weight: bold;
 	transition: box-shadow 0.5s;
 }
+
+code .code-red {
+	color: rgb(252, 2, 115)
+}
+
+code .code-blue {
+	color: rgb(86, 140, 206);
+}
+
+code .code-yellow {
+	color: rgb(161, 177, 18);
+}
+
+/* .footer-container {
+	background-color: rgb(193, 193, 193);
+} */
 
 .footer-list {
 	display: flex;
